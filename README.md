@@ -25,26 +25,24 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Descripción
 
-When you're ready, run:
+En esta primera etapa se utilizó:
 
-```bash
-npm run reset-project
-```
+- axios
+- react-native-reanimated-carousel
+- tailwindcss
+- @tanstack/react-query
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+En una primera etapa del proyecto se utilizó axios para hacer las peticiones de get a la API para traer las películas. Se utilizó tailwindcss para facilitar el diseño de la app. se utilizó react-native-reanimated-carousel para crear el carrusel principal ya que el resto se creó con FlatList de react-native y se utilizo @tanstack/react-query para mantener la información de la petición y no tener que hacer una solicitud de los datos todo el tiempo.
 
-## Learn more
+## Description
 
-To learn more about developing your project with Expo, look at the following resources:
+In this first stage we used:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- axios
+- react-native-carousel-reanimated
+- tailwind
+- @tanstack/react-query
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+In the first stage of the project, axios was used to make get requests to the API to bring the movies. Tailwindcss was used to facilitate the design of the application. used react-native-reanimated-carousel to create the main carousel since the rest was created with react-native's FlatList and used @tanstack/react-query to keep the request information and not have to make a request the data all the time.
