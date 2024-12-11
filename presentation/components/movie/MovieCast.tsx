@@ -7,7 +7,6 @@ interface Props {
 }
 
 const MovieCast = ({ cast }: Props) => {
-  console.log(cast);
   return (
     <View className="mt-5 mb-20">
       <Text className="font-bold text-2xl px-5">Actores</Text>

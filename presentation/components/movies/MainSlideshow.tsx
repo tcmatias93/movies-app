@@ -11,7 +11,7 @@ interface Props {
 
 const MainSlideshow = ({ movies }: Props) => {
   const ref = useRef<ICarouselInstance>(null);
-  const width = useWindowDimensions().width;
+  const { width } = useWindowDimensions();
 
   return (
     <View className="h-[250px] w-full">

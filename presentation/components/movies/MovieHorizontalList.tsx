@@ -42,7 +42,6 @@ const MovieHorizontalList = ({
 
     isLoading.current = true;
 
-    console.log("Cargar siguientes peliculas!!");
     loadNextPage && loadNextPage();
   };
 
